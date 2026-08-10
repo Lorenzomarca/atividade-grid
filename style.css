@@ -47,17 +47,21 @@ button:hover {
 
    O header deve usar CSS Grid para posicionar
    o logo na esquerda e a navegacao na direita.
-
    Instrucoes:
    - Transforme .header em um grid container
    - Use 2 colunas (uma para o logo, outra para o nav)
    - Alinhe os itens verticalmente ao centro
    ============================================= */
 
+
 .header {
     background-color: #1a1a2e;
     padding: 15px 40px;
     /* ESCREVA SEU CODIGO AQUI */
+display: grid;
+grid-template-columns: 1fr auto;
+ align-items: center;
+
 }
 
 .logo {
