@@ -140,6 +140,10 @@ grid-template-columns: 1fr auto;
     max-width: 1000px;
     margin: 0 auto;
     /* ESCREVA SEU CODIGO AQUI */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
 }
 
 .categoria-card {
