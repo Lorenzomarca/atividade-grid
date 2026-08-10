@@ -104,6 +104,9 @@ grid-template-columns: 1fr auto;
     text-align: center;
     min-height: 300px;
     /* ESCREVA SEU CODIGO AQUI */
+    display: grid;
+    place-items: center;
+
 }
 
 .banner h1 {
