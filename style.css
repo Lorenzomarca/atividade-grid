@@ -440,6 +440,31 @@ grid-template-columns: 1fr auto;
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
+/* =============================================
+QUESTAO 9 - GRID AREAS NO FOOTER
+============================================= */
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "marca links contato redes";
+}
+
+.footer-col:nth-child(1) {
+  grid-area: marca;
+}
+
+.footer-col:nth-child(2) {
+  grid-area: links;
+}
+
+.footer-col:nth-child(3) {
+  grid-area: contato;
+}
+
+.footer-col:nth-child(4) {
+  grid-area: redes;
+}
 
 
 /* =============================================
