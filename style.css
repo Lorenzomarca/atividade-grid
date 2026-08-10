@@ -483,3 +483,26 @@ QUESTAO 9 - GRID AREAS NO FOOTER
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
+
+@media (max-width: 768px) {
+  .categorias-grid {
+    grid-template-columns: 2fr;
+  }
+
+  .produtos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .destaque-principal {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .info-grid {
+    grid-template-columns: 2fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 2fr;
+  }
+}
