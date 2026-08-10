@@ -243,7 +243,7 @@ grid-template-columns: 1fr auto;
     /* ESCREVA SEU CODIGO AQUI */
     grid-column: span 2;
     grid-row: span 2;
-    
+
 }
 
 .destaque-principal .preco {
@@ -284,6 +284,9 @@ grid-template-columns: 1fr auto;
     max-width: 1100px;
     margin: 0 auto;
     /* ESCREVA SEU CODIGO AQUI */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 .info-card {
