@@ -239,10 +239,21 @@ body {
 .hero {
     background-color: #1a1a2e;
     /* ESCREVA SEU CODIGO AQUI */
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-conteudo {
     /* ESCREVA SEU CODIGO AQUI */
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    
+
 }
 
 
