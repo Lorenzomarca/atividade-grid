@@ -632,6 +632,42 @@ body {
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero-titulo {
+        font-size: 2rem;
+    }
+
+    .hero-numeros {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .diferenciais-container {
+        flex-direction: column;
+    }
+
+    .prato-card {
+        flex: 1 1 100%;
+    }
+
+    .depoimentos-container {
+        flex-direction: column;
+    }
+
+    .footer-topo {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
 
 
 /* =============================================
@@ -645,6 +681,8 @@ body {
     text-align: center;
     color: white;
     /* O gradiente da questao 3 vai aqui */
+    background: linear-gradient(90deg, #e67e22, #d35400);
+
 }
 
 .cta h2 {
